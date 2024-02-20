@@ -1,0 +1,19 @@
+html{
+    // this definied what 1rem is 
+    font-size: 62.5%;
+}
+*,
+*::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: "Gotham Book", sans-serif;
+   /* font-size: 16px;*/
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    box-sizing: border-box;
+}
