@@ -1,8 +1,8 @@
 @import url(https://db.onlinewebfonts.com/c/924ee4158324c02e3e0d62e54cafd14f?family=Gotham+Book);
 .section-about {
-  background-color: #F7F7F7;
   padding: 25rem 0;
   margin-top: -20vh;
+  clip-path: ellipse(160vh 100% at bottom);
 }
 
 html {
@@ -62,6 +62,14 @@ body {
     transform: translate(0);
   }
 }
+@keyframes text-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 .heading-primary {
   color: #FFF;
   backface-visibility: hidden;
@@ -93,6 +101,20 @@ body {
   transform: skewY(2deg) skewX(15deg) scale(1.1);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
+.heading-secondary--content---text {
+  color: #000;
+  background-color: #FFF;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 43rem;
+  margin-top: 0rem;
+}
 
 .headering-tertiary {
   font-size: 1.6rem;
@@ -111,6 +133,34 @@ body {
   color: #FFF;
   font-size: 1.8rem;
   animation: moveInLeft 1s ease-out;
+}
+
+.text {
+  font-size: 1.6rem;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-wrapper {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: flex-start;
+  color: #2ebad5;
+  overflow: hidden;
+}
+
+.heading-secondary--caroussel {
+  margin-top: 1rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 0.1px;
+  white-space: nowrap;
+  padding: 0 6rem;
+  letter-spacing: 1px;
+  animation: text-move 6s linear infinite;
 }
 
 .u-center-text {
@@ -187,7 +237,7 @@ body {
 }
 
 .header {
-  height: 100vh;
+  height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(28, 59, 112, 0.789), rgb(46, 186, 213)), url(../img/ndop.png);
   background-size: cover;
   background-position: top;
