@@ -6,6 +6,7 @@
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
+    left:16rem;
     align-items: center;
     transition: all .2s;
     position: relative;
@@ -46,4 +47,25 @@
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
     }
+}
+.donate{
+    &:link,
+    &:visited{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0rem 3rem;
+        display: inline-block;
+        border-radius: 2rem ;
+        align-items: center;
+        transition: all .2s;
+        position: relative;
+       
+    background-color: $color-primary-light !important;
+    color: $color-white !important;
+  
+  }
+ 
+  }
+  .donate:hover{
+    background-color: $color-primary !important;
 }
