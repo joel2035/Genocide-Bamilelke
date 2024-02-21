@@ -5,6 +5,66 @@
   clip-path: ellipse(160vh 100% at bottom);
 }
 
+.container {
+  background-image: linear-gradient(to right, #2ebad5, #014970);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content-box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.slide {
+  width: 20vw;
+  height: 20vw;
+  border: 1px solid #FFF;
+  flex: none;
+}
+
+.slide:hover {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  background-color: #FFF;
+}
+
+.content-box h2 {
+  color: #2ebad5;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.content-box--descriptif {
+  width: 60%;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.about-bami--title {
+  font-size: 3rem;
+  color: #FFF;
+  margin-top: 5rem;
+  text-align: center;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -90,14 +150,13 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #2ebad5, #014970);
   -webkit-background-clip: text;
-  color: transparent;
+  margin-top: 1rem;
+  color: white;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 }
 .heading-secondary:hover {
-  transform: skewY(2deg) skewX(15deg) scale(1.1);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 .heading-secondary--content---text {
@@ -148,7 +207,7 @@ body {
   margin-top: 4rem;
   justify-content: flex-start;
   color: #2ebad5;
-  animation: text-move 6s linear infinite;
+  animation: text-move 6s linear infinite !important;
 }
 
 .heading-secondary--caroussel {
