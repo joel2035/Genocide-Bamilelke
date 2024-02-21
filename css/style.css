@@ -73,7 +73,6 @@ body {
 .heading-primary {
   color: #FFF;
   backface-visibility: hidden;
-  margin-bottom: 2rem;
   width: 100%;
 }
 .heading-primary--main {
@@ -144,12 +143,12 @@ body {
   justify-content: center;
 }
 
-.text-wrapper {
+.wrapper-content-text {
   display: flex;
   margin-top: 4rem;
   justify-content: flex-start;
   color: #2ebad5;
-  overflow: hidden;
+  animation: text-move 6s linear infinite;
 }
 
 .heading-secondary--caroussel {
@@ -157,10 +156,42 @@ body {
   font-size: 4rem;
   text-transform: uppercase;
   -webkit-text-stroke-width: 0.1px;
-  white-space: nowrap;
+  margin: 0 0.4rem;
   padding: 0 6rem;
   letter-spacing: 1px;
-  animation: text-move 6s linear infinite;
+}
+
+.wrapper-content {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: white;
+  position: relative;
+}
+
+.wrapper-content-text:hover {
+  animation-play-state: paused;
+}
+
+.wrapper-content::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), aqua);
+  content: "";
+  z-index: 2;
+}
+
+.wrapper-content::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), aqua);
+  content: "";
+  z-index: 2;
 }
 
 .u-center-text {
@@ -251,7 +282,7 @@ body {
   top: 1vh;
 }
 .header__text-box {
-  margin-top: 30%;
+  margin-top: 15%;
 }
 
 .header-burger {
@@ -260,7 +291,6 @@ body {
 
 .navbar {
   display: flex;
-  position: fixed;
   align-items: center;
   width: 100vw;
   height: 10vh;
