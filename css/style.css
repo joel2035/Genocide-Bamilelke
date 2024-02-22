@@ -2,11 +2,12 @@
 .section-about {
   padding: 25rem 0;
   margin-top: -20vh;
-  clip-path: ellipse(160vh 100% at bottom);
 }
 
 .container {
   background-image: linear-gradient(to right, #2ebad5, #014970);
+  clip-path: ellipse(115vw 50% at center);
+  height: 110vh;
 }
 
 .content {
@@ -56,13 +57,6 @@
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.25;
-}
-
-.about-bami--title {
-  font-size: 3rem;
-  color: #FFF;
-  margin-top: 5rem;
-  text-align: center;
 }
 
 html {
@@ -130,6 +124,14 @@ body {
     transform: translateX(-100%);
   }
 }
+@keyframes animate {
+  0% {
+    transform: perspective(100rem) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(100rem) rotateY(360deg);
+  }
+}
 .heading-primary {
   color: #FFF;
   backface-visibility: hidden;
@@ -150,13 +152,15 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
+  background-image: linear-gradient(to right, #2ebad5, #014970);
   -webkit-background-clip: text;
-  margin-top: 1rem;
-  color: white;
+  color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
 }
 .heading-secondary:hover {
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skewY(2deg) skewX(15deg) scale(1.1);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 .heading-secondary--content---text {
@@ -205,6 +209,7 @@ body {
 .wrapper-content-text {
   display: flex;
   margin-top: 4rem;
+  white-space: nowrap;
   justify-content: flex-start;
   color: #2ebad5;
   animation: text-move 6s linear infinite !important;
@@ -215,8 +220,8 @@ body {
   font-size: 4rem;
   text-transform: uppercase;
   -webkit-text-stroke-width: 0.1px;
-  margin: 0 0.4rem;
-  padding: 0 6rem;
+  margin: 0 0.2rem;
+  padding: 0 3rem;
   letter-spacing: 1px;
 }
 
@@ -255,10 +260,48 @@ body {
 
 .u-center-text {
   text-align: center;
+  color: #FFF;
 }
 
 .margin-bottom-title {
   margin-bottom: 8rem;
+}
+
+.about-bami {
+  margin-top: 30px;
+}
+.about-bami--title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  animation: moveInLeft 1s ease-out;
+  display: inline-block;
+  background-image: linear-gradient(to right, #FFF, #2ebad5);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
+.about-bami-text {
+  color: #FFF;
+  font-size: 2rem;
+  animation: moveInLeft 1s ease-out;
+}
+.about-bami--img {
+  width: 500px;
+  height: 350px;
+  margin: 0;
+  animation: moveInRight 1s ease-out;
+  padding: 0;
+  border-radius: 10px;
+}
+.about-bami--img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25% 10%;
+}
+#second, #three, #foor, #five {
+  display: none;
 }
 
 .btn:link, .btn:visited {
@@ -448,37 +491,6 @@ body {
   animation: animate 10s linear infinite;
 }
 
-.header-content--box---img span {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform-origin: center;
-  transform-style: preserve-3d;
-  perspective-origin: 10%;
-  perspective: 8rem;
-  transform: rotateY(calc(var(--i) * 45deg)) translateZ(25rem);
-  -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.2666666667));
-}
-
-.header-content--box---img span img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-@keyframes animate {
-  0% {
-    transform: perspective(100rem) rotateY(0deg);
-  }
-  100% {
-    transform: perspective(100rem) rotateY(360deg);
-  }
-}
 .wrapper {
   height: 30rem;
   width: 30rem;

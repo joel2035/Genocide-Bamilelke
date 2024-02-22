@@ -45,3 +45,11 @@
         transform: translateX(-100%);
     }
 }
+@keyframes animate {
+    0%{
+        transform: perspective(100rem) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(100rem) rotateY(360deg);
+    }
+}
