@@ -157,6 +157,12 @@ body {
   color: aqua;
 }
 
+.white {
+  color: #FFF !important;
+  position: relative;
+  top: 3rem;
+}
+
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -406,7 +412,7 @@ body {
   align-items: start;
 }
 .commemoration__item {
-  background-color: #fff;
+  background-color: #FFF;
   border-radius: 0.4rem;
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
