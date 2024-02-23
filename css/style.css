@@ -4,6 +4,10 @@
   margin-top: -20vh;
 }
 
+.section-commemoration {
+  margin-top: -20vh;
+}
+
 .container {
   background-image: linear-gradient(to right, #2ebad5, #014970);
   clip-path: ellipse(115vw 50% at center);
@@ -267,43 +271,6 @@ body {
   margin-bottom: 8rem;
 }
 
-.about-bami {
-  margin-top: 30px;
-}
-.about-bami--title {
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  animation: moveInLeft 1s ease-out;
-  display: inline-block;
-  background-image: linear-gradient(to right, #FFF, #2ebad5);
-  -webkit-background-clip: text;
-  color: transparent;
-  letter-spacing: 0.2rem;
-  transition: all 0.2s;
-}
-.about-bami-text {
-  color: #FFF;
-  font-size: 2rem;
-  animation: moveInLeft 1s ease-out;
-}
-.about-bami--img {
-  width: 500px;
-  height: 350px;
-  margin: 0;
-  animation: moveInRight 1s ease-out;
-  padding: 0;
-  border-radius: 10px;
-}
-.about-bami--img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 25% 10%;
-}
-#second, #three, #foor, #five {
-  display: none;
-}
-
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -355,7 +322,7 @@ body {
 .donate:link, .donate:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0rem 3rem;
+  padding: 0rem 2rem;
   display: inline-block;
   border-radius: 2rem;
   align-items: center;
@@ -367,6 +334,101 @@ body {
 
 .donate:hover {
   background-color: #014970 !important;
+}
+
+.btn-text:link, .btn-text:visited {
+  color: #014970;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #014970;
+  font-size: 1.5rem;
+}
+.btn-text:hover {
+  background-color: #2ebad5;
+  color: #FFF;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+.btn-text:active {
+  box-shadow: 0 5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
+
+.about-bami {
+  margin-top: 30px;
+}
+.about-bami--title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  animation: moveInLeft 1s ease-out;
+  display: inline-block;
+  background-image: linear-gradient(to right, #FFF, #2ebad5);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+}
+.about-bami-text {
+  color: #FFF;
+  font-size: 2rem;
+  animation: moveInLeft 1s ease-out;
+}
+.about-bami--img {
+  width: 500px;
+  height: 350px;
+  margin: 0;
+  animation: moveInRight 1s ease-out;
+  padding: 0;
+  border-radius: 10px;
+}
+.about-bami--img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25% 10%;
+  box-shadow: 0 1.5rem 4rem;
+}
+#second, #three, #foor, #five {
+  display: none;
+}
+
+.composition {
+  position: relative;
+}
+.composition-link {
+  color: #FFF;
+}
+.composition__photo {
+  width: 55%;
+  box-shadow: 0 1.5rem 4rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 2rem;
+}
+.composition__photo--p1 {
+  left: 0;
+  top: -2rem;
+  position: absolute;
+}
+.composition__photo--p2 {
+  right: 0;
+  top: 2rem;
+  position: absolute;
+}
+.composition__photo--p3 {
+  left: 20%;
+  top: 10rem;
+  position: relative;
+}
+.composition__photo:hover {
+  outline: 1.5rem solid #2ebad5;
+  transform: scale(1.05) translateY(-5rem);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+.composition__photo:hover .composition__photo__photo:not(:hover) {
+  transform: scale(0.95);
 }
 
 .header {

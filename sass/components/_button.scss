@@ -53,7 +53,7 @@
     &:visited{
         text-transform: uppercase;
         text-decoration: none;
-        padding: 0rem 3rem;
+        padding: 0rem 2rem;
         display: inline-block;
         border-radius: 2rem ;
         align-items: center;
@@ -68,4 +68,28 @@
   }
   .donate:hover{
     background-color: $color-primary !important;
+}
+
+.btn-text{
+    &:link,
+    &:visited{
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: .1rem solid $color-primary;
+       
+        font-size: 1.5rem;
+
+    }
+
+    &:hover{
+        background-color: $color-primary-light;
+        color:$color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        transform: translateY(-2px);
+    }
+    &:active{
+        box-shadow: 0 5rem 1rem rgba($color-black, .15);
+        transform: translateY(0);
+    }
 }
