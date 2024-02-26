@@ -8,6 +8,14 @@
   margin-top: -20vh;
 }
 
+.section-sposor {
+  padding: 25rem 0;
+  margin-top: -20vh;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
 .section-feature {
   padding: 20rem 0;
   background-size: cover;
@@ -253,8 +261,7 @@ body {
   background-color: white;
   position: relative;
 }
-
-.wrapper-content-text:hover {
+.wrapper-content-test:hover {
   animation-play-state: paused;
 }
 
@@ -564,6 +571,85 @@ img {
   color: #014970;
 }
 
+.detail {
+  color: #FFF;
+}
+.detail a {
+  text-decoration: none;
+  color: #FFF;
+}
+.detail a:hover {
+  color: #014970;
+}
+
+.wrapper-slider {
+  height: 250;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  place-items: center;
+  display: grid;
+  overflow: hidden;
+}
+
+.wrapper-slider::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), aqua);
+  content: "";
+  z-index: 2;
+}
+
+.wrapper-slider::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), aqua);
+  content: "";
+  z-index: 2;
+}
+
+.wrapper-slide {
+  display: flex;
+  width: 4500px;
+  animation: scroll 20s linear infinite;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wrapper-slide:hover {
+  animation-play-state: paused;
+}
+
+.slide-img {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+.slide-img img {
+  width: 100%;
+  transition: transform 1%;
+}
+.slide-img img:hover {
+  transform: translateZ(20px);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2250px);
+  }
+}
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(28, 59, 112, 0.789), rgb(46, 186, 213)), url(../img/ndop.png);

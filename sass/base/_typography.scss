@@ -101,10 +101,11 @@
     white-space: nowrap;
     background-color: white;
     position: relative;
+    &-test:hover{
+        animation-play-state: paused;
+    }
 }
-.wrapper-content-text:hover{
-    animation-play-state: paused;
-}
+
 .wrapper-content::before{
    position: absolute;
    left: 0;

@@ -9,7 +9,17 @@
     }
 color: $color-white;
 text-decoration: none;
+}
+.detail {
 
-
+    color: $color-white;
+    
+    a {
+        text-decoration: none;
+        color: $color-white;
+        &:hover{
+            color:$color-primary-dark;
+        }
+    }
 }
    
