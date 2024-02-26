@@ -14,6 +14,12 @@
   background-position: top;
 }
 
+.section-news {
+  padding: 20rem 0;
+  background-size: cover;
+  background-position: top;
+}
+
 .container {
   background-image: linear-gradient(to right, #2ebad5, #014970);
   clip-path: ellipse(115vw 50% at center);
@@ -348,6 +354,31 @@ body {
   background-color: #014970 !important;
 }
 
+.content-btn-aqua {
+  width: 100%;
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn--aqua {
+  background-image: linear-gradient(to right, #2ebad5, #014970);
+  color: #FFF;
+  position: sticky !important;
+  text-align: center;
+}
+.btn--aqua:hover {
+  background-color: #014970;
+  color: #014970;
+  box-shadow: 0 1rem 2rem rgba(46, 186, 213, 0.15);
+  transform: translateY(-2px);
+}
+.btn--aqua:active {
+  box-shadow: 0 5rem 1rem rgba(46, 186, 213, 0.15);
+  transform: translateY(0);
+}
+
 .btn-text:link, .btn-text:visited {
   color: #014970;
   display: inline-block;
@@ -417,7 +448,8 @@ body {
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.3s;
+  animation: moveInBottom 0.5s ease-out;
 }
 .commemoration__item:hover {
   transform: translateY(-0.5%);
@@ -516,6 +548,20 @@ img {
   vertical-align: middle;
   display: inline-block;
   border: 0;
+}
+
+.news-container {
+  background-image: linear-gradient(to right, #2ebad5, #014970);
+  clip-path: ellipse(115vw 50% at center);
+  height: 80vh;
+}
+
+.content-box--descriptif---detail {
+  color: #FFF;
+  text-decoration: none;
+}
+.content-box--descriptif---detail:hover {
+  color: #014970;
 }
 
 .header {

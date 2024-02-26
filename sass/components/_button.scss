@@ -69,6 +69,34 @@
   .donate:hover{
     background-color: $color-primary !important;
 }
+.content-btn-aqua{
+    width: 100%;
+    position: relative;
+  top: 5rem;
+
+    display: flex;
+    justify-content: center;
+}
+.btn--aqua{
+    background-image: linear-gradient(to right, #2ebad5, #014970);
+     color: $color-white;
+     position: sticky !important;
+
+    text-align: center;
+     
+   
+    &:hover{
+        background-color: $color-primary-dark;
+        color:$color-primary;
+        box-shadow: 0 1rem 2rem rgba($color-primary-light, .15);
+        transform: translateY(-2px);
+    }
+    &:active{
+        box-shadow: 0 5rem 1rem rgba($color-primary-light, .15);
+        transform: translateY(0);
+    }
+
+}
 
 .btn-text{
     &:link,

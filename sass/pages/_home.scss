@@ -1,35 +1,39 @@
-.section-about{
+.section-about {
     padding: 25rem 0;
     margin-top: -20vh;
 }
-.section-commemoration{
+
+.section-commemoration {
     margin-top: -20vh;
 }
-.section-feature{
+
+.section-feature {
     padding: 20rem 0;
     background-size: cover;
     background-position: top;
 
 }
-.container{
-    background-image: linear-gradient(to right, #2ebad5, #014970);  
+.section-news{
+    padding: 20rem 0;
+    background-size: cover;
+    background-position: top;
+}
 
-   
-    clip-path:  ellipse(115vw 50% at center);
-    
-  
+.container {
+    background-image: linear-gradient(to right, #2ebad5, #014970);
+    clip-path: ellipse(115vw 50% at center);
     height: 110vh;
-  
-
 
 }
-.content{
+
+.content {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    
+
 }
-.content-box{
+
+.content-box {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -37,19 +41,22 @@
     transition: .4s ease-in-out;
     cursor: pointer;
 }
-.slide{
+
+.slide {
 
     width: 20vw;
     height: 20vw;
     border: 1px solid $color-white;
     flex: none;
 }
-.slide:hover{
+
+.slide:hover {
     transition: .4s ease-in-out;
     cursor: pointer;
     background-color: $color-white;
 }
-.content-box h2{
+
+.content-box h2 {
     color: #2ebad5;
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -57,7 +64,8 @@
     font-weight: 600;
     line-height: 1;
 }
-.content-box--descriptif{
+
+.content-box--descriptif {
     width: 60%;
     color: #fff;
     text-align: center;
@@ -68,4 +76,3 @@
     font-weight: 400;
     line-height: 1.25;
 }
-

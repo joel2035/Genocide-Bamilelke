@@ -1,0 +1,15 @@
+.news-container{
+    background-image: linear-gradient(to right, #2ebad5, #014970);
+    clip-path: ellipse(115vw 50% at center);
+    height: 80vh;
+}
+.content-box--descriptif---detail{
+    &:hover{
+        color: $color-primary;
+    }
+color: $color-white;
+text-decoration: none;
+
+
+}
+   
