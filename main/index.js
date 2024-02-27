@@ -45,3 +45,14 @@ fiveCase.addEventListener('click', () => {
     foor.style = "display:none";
     five.style = "display:block";
 })
+
+const heropanel = document.querySelector('.heropanel');
+const sectionNews = document.querySelector('.news');
+
+window.addEventListener('scroll', function() {
+  if (sectionNews.getBoundingClientRect().top < heropanel.offsetHeight) {
+    heropanel.classList.add('active');
+  } else {
+    heropanel.classList.remove('active');
+  }
+});

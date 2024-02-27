@@ -1,0 +1,23 @@
+.footer {
+    height: 60vh;
+    background-image: linear-gradient(to right,  #2ebad5, #014970);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+  
+    padding-top: 60px;
+    padding-bottom: 40px;
+    clip-path: ellipse(78vw 100% at bottom);
+    &-logo{
+      width: 8rem;
+      position: absolute;
+      left: 8vh;
+      top: 1vh;
+    }
+
+    &-content{
+        background-color: red;
+        width: 100%;
+        margin-top: 50px;
+    }
+}

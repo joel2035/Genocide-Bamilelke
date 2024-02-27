@@ -21,7 +21,6 @@
   
   .navbar {
     display: flex;
-   
     align-items: center;
     width: 100vw;
     height: 10vh;
@@ -193,3 +192,39 @@ height: 100%;
 }
 
 
+
+
+// heropanel
+
+.heropanel {
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 2rem 0;
+  box-shadow: 0 10px 7px -4px rgba(158, 155, 158, 0.3);
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10000;
+  opacity: 0;
+  transition: 0.2s ease;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .heropanel {
+    display: none;
+  }
+}
+
+.active {
+  display: flex;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .active {
+    display: none;
+  }
+}

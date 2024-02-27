@@ -69,7 +69,7 @@
     transition: 0.2s;
   }
   .card__btn:hover, .card__btn:active {
-    background-color: #dce4ff;
+    background-image: linear-gradient(to right, #2ebad5, #014970);
   }
   .card__btn:hover span, .card__btn:active span {
     margin-left: 1.5rem;

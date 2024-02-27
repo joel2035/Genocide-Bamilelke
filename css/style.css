@@ -156,6 +156,14 @@ body {
     transform: perspective(100rem) rotateY(360deg);
   }
 }
+@keyframes anim {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}
 .heading-primary {
   color: #FFF;
   backface-visibility: hidden;
@@ -515,7 +523,7 @@ body {
 }
 
 .card__btn:hover, .card__btn:active {
-  background-color: #dce4ff;
+  background-image: linear-gradient(to right, #2ebad5, #014970);
 }
 
 .card__btn:hover span, .card__btn:active span {
@@ -616,10 +624,10 @@ img {
 
 .wrapper-slide {
   display: flex;
-  width: 4500px;
-  animation: scroll 20s linear infinite;
+  animation: anim 10s linear infinite;
   overflow: hidden;
   white-space: nowrap;
+  width: 3500px;
 }
 
 .wrapper-slide:hover {
@@ -633,6 +641,7 @@ img {
   align-items: center;
   padding: 15px;
   perspective: 100px;
+  margin-right: 5rem;
 }
 .slide-img img {
   width: 100%;
@@ -642,14 +651,6 @@ img {
   transform: translateZ(20px);
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-2250px);
-  }
-}
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(28, 59, 112, 0.789), rgb(46, 186, 213)), url(../img/ndop.png);
@@ -846,6 +847,59 @@ img {
   top: 70rem;
   right: 30rem;
   position: relative;
+}
+
+.heropanel {
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 2rem 0;
+  box-shadow: 0 10px 7px -4px rgba(158, 155, 158, 0.3);
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10000;
+  opacity: 0;
+  transition: 0.2s ease;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .heropanel {
+    display: none;
+  }
+}
+.active {
+  display: flex;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  .active {
+    display: none;
+  }
+}
+.footer {
+  height: 60vh;
+  background-image: linear-gradient(to right, #2ebad5, #014970);
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  clip-path: ellipse(78vw 100% at bottom);
+}
+.footer-logo {
+  width: 8rem;
+  position: absolute;
+  left: 8vh;
+  top: 1vh;
+}
+.footer-content {
+  background-color: red;
+  width: 100%;
+  margin-top: 50px;
 }
 
 .row {
