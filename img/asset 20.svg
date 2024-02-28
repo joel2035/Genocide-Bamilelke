@@ -1,0 +1,10 @@
+<svg id="Groupe_48" data-name="Groupe 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.595" height="16.594" viewBox="0 0 16.595 16.594">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="16.595" height="16.595" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_47" data-name="Groupe 47" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Tracé_17352" data-name="Tracé 17352" d="M14.644,0H1.979A1.98,1.98,0,0,0,0,1.979V14.644a1.98,1.98,0,0,0,1.979,1.979H14.644a1.98,1.98,0,0,0,1.979-1.979V1.979A1.98,1.98,0,0,0,14.644,0m-9.5,13.853H2.771V6.333H5.145ZM2.771,4.144a1.055,1.055,0,0,1,1.187-.978,1.071,1.071,0,0,1,1.187.978,1.053,1.053,0,0,1-1.187,1,1.071,1.071,0,0,1-1.187-1m11.082,9.709H11.478V9.895a1.423,1.423,0,0,0-1.385-1.6h-.032c-.958,0-1.354.815-1.354,1.6v3.958H6.333V6.333H8.707V7.346a2.965,2.965,0,0,1,2.3-1.013c1.571,0,2.846,1.081,2.846,3.269Z" transform="translate(-0.029)" fill="#fff"/>
+  </g>
+</svg>
