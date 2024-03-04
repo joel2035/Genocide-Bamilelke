@@ -35,15 +35,15 @@
 <header class="header-page">
 <div class="navbar navbar-fix">
             <div class="header-logo">
-                <a href="#"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
+                <a href="index.php"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
             </div>
             <nav>
                 <div class="header-burger">
-                    <a href="#"><img src="img/burger-white.png" alt=""></a>
+                    <a href=""><img src="img/burger-white.png" alt=""></a>
                 </div>
                 <ul class="header-navList">
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link top-call" href="#">Home</a>
+                        <a class="header-navListItem-link top-call" href="index.php">Home</a>
                     </li>
                     <li class="header-navListItem">
                         <a class="header-navListItem-link agence-call" href="/#agence ">About La’akam</a>
@@ -67,40 +67,3 @@
                 </ul>
             </nav>
 </header>
-<section class="heropanel">
-            <div class="navbar">
-                <div class="header-logo">
-                    <a href="#"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
-                </div>
-                <nav>
-                    <div class="header-burger">
-                        <a href="#"><img src="img/burger-white.png" alt=""></a>
-                    </div>
-                    <ul class="header-navList">
-                        <li class="header-navListItem">
-                            <a class="header-navListItem-link top-call" href="#">Home</a>
-                        </li>
-                        <li class="header-navListItem">
-                            <a class="header-navListItem-link agence-call" href="/#agence ">About La’akam</a>
-                        </li>
-                        <li class="header-navListItem">
-                            <a class="header-navListItem-link services-call" href="/#services ">Exhibitions</a>
-                        </li>
-                        <li class="header-navListItem">
-                            <a class="header-navListItem-link avantage-call" href="/#avantage">Achievements</a>
-                        </li>
-                        <li class="header-navListItem">
-                            <a class="header-navListItem-link avantage-call" href="/#avantage">News</a>
-                        </li>
-                        <li class="header-navListItem">
-                            <a class="header-navListItem-link campagne-call" href="/#campagne">Contact us</a>
-                        </li>
-                        <li class="header-navListItem ">
-                            <a class="donate" href="/#contact">DONATE</a>
-    
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-        <section class="news"></section>
