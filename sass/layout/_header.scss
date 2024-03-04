@@ -2,7 +2,7 @@
     height: 95vh;
     background-image: linear-gradient(to right bottom, rgba(28, 59, 112, 0.789), rgba(46	186	213)), url(../img/ndop.png);
     background-size: cover;
-    background-position: top;
+    z-index: 10000;
     width: 100%;
     clip-path: ellipse(165vh 100% at top);
     &-logo{
@@ -18,13 +18,12 @@
   .header-burger {
     display: none;
   }
-  
   .navbar {
     display: flex;
     align-items: center;
     width: 100vw;
     height: 10vh;
-    align-items: center;
+
     justify-content: space-between;
     box-shadow: 0 10px 7px -4px rgba(158, 155, 158, 0.3);
     top: 0;
@@ -53,7 +52,6 @@
   }
   
   .navbar .header-navListItem {
-    list-style: none;
     margin-left: 2rem;
     position: relative;
   }
@@ -97,9 +95,9 @@
   }
   
   .header-navListItem-link:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+    visibility: visible !important;
+    -webkit-transform: scaleX(1) !important;
+    transform: scaleX(1) !important;
   }
   
   .navbar .header-navListItem a:hover {

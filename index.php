@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Moving Média">
+  <meta itemprop="description" content="">
+  <meta itemprop="image" content="">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://movingmedia.fr">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Genocide Bamiléké">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Genocide Bamiléké">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+ <!-- Your styles -->
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/laakam-logo.png">
@@ -11,9 +32,9 @@
     <title>Genocidebamilekes| Exciting story of the bamileke genocide</title>
 </head>
 
+
 <body>
     <header class="header">
-
         <div class="navbar">
             <div class="header-logo">
                 <a href="#"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
@@ -24,10 +45,10 @@
                 </div>
                 <ul class="header-navList">
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link top-call" href="#">Home</a>
+                        <a class="header-navListItem-link top-call color" href="#">Home</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link agence-call" href="/#agence ">About La’akam</a>
+                        <a class="header-navListItem-link agence-call" href="/#About La’akam ">About La’akam</a>
                     </li>
                     <li class="header-navListItem">
                         <a class="header-navListItem-link services-call" href="/#services ">Exhibitions</a>
@@ -60,7 +81,7 @@
                     </h1>
                     <p class="paragraphe sub">In order to prepare the Bamiléké people for their rebirth, La’akam invites
                         the Bamiléké daughters and sons around the fire 🔥 </p>
-                    <a href="#" class="btn btn--white btn--animation">our engagement</a>
+                    <a href="/engagement.php" class="btn btn--white btn--animation">our engagement</a>
 
                 </div>
             </div>
@@ -108,7 +129,7 @@
                             <a class="header-navListItem-link top-call" href="#">Home</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link agence-call" href="/#agence ">About La’akam</a>
+                            <a class="header-navListItem-link agence-call" href="/#About La’akam ">About La’akam</a>
                         </li>
                         <li class="header-navListItem">
                             <a class="header-navListItem-link services-call" href="/#services ">Exhibitions</a>
@@ -392,7 +413,8 @@
                     </div>
                 </div>
                 <div class="content-btn-aqua">
-                    <a href="#" class="btn  btn--animation btn--aqua">Read more</a>
+                    <a href="#" class="btn  btn--animation btn--aqua">
+                        WHY COMMEMORATE THE BAMILEKE GENOCIDE ?</a>
                 </div>
             </div>
         </section>
@@ -595,62 +617,7 @@
         
       
     </main>
-    <footer class="footer">
-        <div class="row">
-            <div class="footer-content">
-                <div class="col-1-of-3">
-                    <div class="footer-logo">
-                        <a href="#"><img class="footer-logo--img" src="img/laakam-logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-1-of-3">
-                    
-                    <h4 class="footer-content--title">Sitemap</h4> 
-                    <hr>
-                    <ul>
-                        <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">Home</a>
-                        </li>
-                        <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">About La’akam</a>
-                        </li>
-                        <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">Exhibitions</a>
-                        </li>
-                        <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">Achievements</a>
-                        </li>
-                        <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">News</a>
-                        </li>
-                        <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">Contact us</a>
-                        </li>
-                        <li class="footer-navListItem">
-                            <a class="footer-navListItem--link donate" href="/#contact">DONATE</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-1-of-3">
-                    <h4 class="footer-content--title">Contact</h4>
-                    <hr>
-                    <ul>
-                        <li class="footer-navListItem"><a class="footer-navListItem--link" href="">Tel: +1 (412) 537 6163</a></li>
-                        <li class="footer-navListItem"><a class="footer-navListItem--link" href="">Tel: +1 (301) 401-9633</a></li>
-                        <li class="footer-navListItem"><a class="footer-navListItem--link" href="">Mail:</a></li>
-                    </ul>
-                    <ul class="footer-navList--icon">
-                        <li class="footer-navListItem--icon"><a href=""><img src="img/asset 19.svg" alt=""></a></li>
-                        <li class="footer-navListItem--icon"><a href=""><img src="img/asset 20.svg" alt=""></a></li>
-                        <li class="footer-navListItem--icon"><a href=""><img src="img/asset 22.svg" alt=""></a></li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-        </div>
-    </footer>
+    
     <!-- 
         <section class="grid-test">
             <div class="row">
@@ -715,6 +682,7 @@
             </div>
         </section>
          -->
+         <?php include_once("footer.php") ?>
 </body>
 
 <script src="main/index.js">
@@ -722,3 +690,4 @@
 </script>
 
 </html>
+

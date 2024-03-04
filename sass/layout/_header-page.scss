@@ -1,0 +1,16 @@
+.header-page{
+    height: 50vh;
+    background-image: linear-gradient(to right bottom, rgba(28, 59, 112, 0.789), rgba(46	186	213)), url(../img/ndop.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    &-logo{
+      width: 8rem;
+      position: absolute;
+      left: 8vh;
+      top: 1vh;
+}
+}
+.navbar-fix{
+    position: fixed;
+}
