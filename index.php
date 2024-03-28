@@ -60,7 +60,7 @@
                         <a class="header-navListItem-link avantage-call" href="/#avantage">News</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link campagne-call" href="/#campagne">Contact us</a>
+                        <a class="header-navListItem-link campagne-call" href="contact.php">Contact us</a>
                     </li>
                     <li class="header-navListItem ">
                         <a class="donate" href="/#contact">DONATE</a>
@@ -81,7 +81,7 @@
                     </h1>
                     <p class="paragraphe sub">In order to prepare the Bamiléké people for their rebirth, La’akam invites
                         the Bamiléké daughters and sons around the fire 🔥 </p>
-                    <a href="/engagement.php" class="btn btn--white btn--animation">our engagement</a>
+                    <a href="engagement.php" class="btn btn--white btn--animation">our engagement</a>
 
                 </div>
             </div>
@@ -132,20 +132,19 @@
                             <a class="header-navListItem-link agence-call" href="/#About La’akam ">About La’akam</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link services-call" href="/#services ">Exhibitions</a>
+                            <a class="header-navListItem-link services-call" href="/#Exhibitions">Exhibitions</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link avantage-call" href="/#avantage">Achievements</a>
+                            <a class="header-navListItem-link avantage-call" href="/#Achievements">Achievements</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link avantage-call" href="/#avantage">News</a>
+                            <a class="header-navListItem-link avantage-call" href="/#News">News</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link campagne-call" href="/#campagne">Contact us</a>
+                            <a class="header-navListItem-link campagne-call" href="contact.php">Contact us</a>
                         </li>
                         <li class="header-navListItem ">
                             <a class="donate" href="/#contact">DONATE</a>
-    
                         </li>
                     </ul>
                 </nav>

@@ -58,7 +58,7 @@
                         <a class="header-navListItem-link avantage-call" href="/#avantage">News</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link campagne-call" href="/#campagne">Contact us</a>
+                        <a class="header-navListItem-link campagne-call" href="contact.php">Contact us</a>
                     </li>
                     <li class="header-navListItem">
                         <a class="donate" href="/#contact">DONATE</a>

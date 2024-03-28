@@ -26,7 +26,7 @@
                             <a class="footer-navListItem--link" href="#">News</a>
                         </li>
                         <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">Contact us</a>
+                            <a class="footer-navListItem--link" href="contact.php">Contact us</a>
                         </li>
                         <li class="footer-navListItem">
                             <a class="footer-navListItem--link donate" href="/#contact">DONATE</a>
