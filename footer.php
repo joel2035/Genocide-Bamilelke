@@ -29,7 +29,7 @@
                             <a class="footer-navListItem--link" href="contact.php">Contact us</a>
                         </li>
                         <li class="footer-navListItem">
-                            <a class="footer-navListItem--link donate" href="/#contact">DONATE</a>
+                            <a class="footer-navListItem--link donate" href="donate.php">DONATE</a>
                         </li>
                     </ul>
                 </div>
@@ -39,12 +39,12 @@
                     <ul>
                         <li class="footer-navListItem"><a class="footer-navListItem--link" href="">Tel: +1 (412) 537 6163</a></li>
                         <li class="footer-navListItem"><a class="footer-navListItem--link" href="">Tel: +1 (301) 401-9633</a></li>
-                        <li class="footer-navListItem"><a class="footer-navListItem--link" href="">Mail:</a></li>
+                        <li class="footer-navListItem"><a class="footer-navListItem--link mailto" href="mailto:genocidebamileke@gmail.com">Mail: genocidebamileke@gmail.com</a></li>
                     </ul>
                     <ul class="footer-navList--icon">
-                        <li class="footer-navListItem--icon"><a href=""><img src="img/asset 19.svg" alt=""></a></li>
+                        <li class="footer-navListItem--icon"><a href="https://www.facebook.com/share/p/ieD7SYgu5GYZAzwe/?mibextid=WC7FNe"><img src="img/asset 19.svg" alt="facebook"></a></li>
                         <li class="footer-navListItem--icon"><a href=""><img src="img/asset 20.svg" alt=""></a></li>
-                        <li class="footer-navListItem--icon"><a href=""><img src="img/asset 22.svg" alt=""></a></li>
+                        <li class="footer-navListItem--icon"><a href="https://www.youtube.com/@altamo3805"><img src="img/asset 22.svg" alt=""></a></li>
                     </ul>
                 </div>
             </div>

@@ -329,10 +329,10 @@
                     <div class="commemoration__item">
                         <div class="card"><img class="card__img" src="img/commemoration.jpg" alt="commemoration">
                             <div class="card__content">
-                                <h3 class="card__header">Commemorations 2024</h3>
+                                <h3 class="card__header">Commemorations</h3>
                                 <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
                                     sunrise in the Californian wilderness.</p>
-                                <a href="#" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                                <a href="commemoration.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
 
                             </div>
                         </div>
