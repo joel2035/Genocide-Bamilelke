@@ -1,3 +1,5 @@
+const { compileString } = require("sass");
+
 const firstCase = document.getElementById('case-one');
 const twoCase = document.getElementById('case-two');
 const threeCase = document.getElementById('case-three');
@@ -57,30 +59,9 @@ window.addEventListener('scroll', function() {
   }
 });
 
-var modal = document.getElementById('modal');
+const modal = document.getElementById("modal")
 
-var img = document.querySelectorAll('img1');
-var modalImg = document.getElementById("img01");
-document.getElementById("caption");
+modal.addEventListener('click', () => {
+  alert("Hello c'est moi")
+})
 
-for (var i = 0; i < img.length; i++) {
-  
-  const element = img[i];
-  element.onclick = function(){
-    if(modal) {
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
-    
-  }
-}
-
-var span = document.querySelectorAll("close");
-
-for (var index = 0; index < span.length; index++) {
-  const element1 = span[index];
-  element1.onclick = function () {
-    modal.style.display = "none";
-  }
-}
