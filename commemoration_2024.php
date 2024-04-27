@@ -24,7 +24,7 @@
                         <h3 class="card__header">Photos and videos</h3>
                         <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
                             sunrise in the Californian wilderness.</p>
-                        <a href="contact.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                        <a href="commemoration_2024_images.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
 
                     </div>
                 </div>
@@ -35,14 +35,13 @@
                         <h3 class="card__header">Guest</h3>
                         <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
                             sunrise in the Californian wilderness.</p>
-                        <a href="commemoration.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                        <a href="guest.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
 
 <?php include_once("footer.php") ?>

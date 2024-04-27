@@ -56,3 +56,31 @@ window.addEventListener('scroll', function() {
     heropanel.classList.remove('active');
   }
 });
+
+var modal = document.getElementById('modal');
+
+var img = document.querySelectorAll('img1');
+var modalImg = document.getElementById("img01");
+document.getElementById("caption");
+
+for (var i = 0; i < img.length; i++) {
+  
+  const element = img[i];
+  element.onclick = function(){
+    if(modal) {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+  }
+}
+
+var span = document.querySelectorAll("close");
+
+for (var index = 0; index < span.length; index++) {
+  const element1 = span[index];
+  element1.onclick = function () {
+    modal.style.display = "none";
+  }
+}

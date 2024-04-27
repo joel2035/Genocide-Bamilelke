@@ -1,4 +1,10 @@
+
+
+
 <?php include_once("header-page.php") ?>
+
+
+
 
 <section class="section-all--commemoration">
     <div class="row">
@@ -9,7 +15,7 @@
         </div>
         <div class="commemoration">
             <div class="commemoration__item">
-                <div class="card"><img class="card__img" src="img/2-home-page.jpg" alt="commomeration">
+                <div class="card"><img class="card__img" src="../img/2-home-page.jpg" alt="commomeration">
                     <div class="card__content">
                         <h1 class="card__header">Commemoration 2023</h1>
                         <p class="card__text">Look up at the night sky, and find yourself
@@ -19,7 +25,7 @@
                 </div>
             </div>
             <div class="commemoration__item">
-                <div class="card"><img class="card__img" src="img/commemoration.jpg" alt="commemoration">
+                <div class="card"><img class="card__img" src="../img/commemoration.jpg" alt="commemoration">
                     <div class="card__content">
                         <h3 class="card__header">Commemorations 2024</h3>
                         <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
