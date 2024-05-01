@@ -14,7 +14,7 @@
                         <h1 class="card__header">Conference</h1>
                         <p class="card__text">Look up at the night sky, and find yourself
                             in the amazing mountain range of Aspen. </p>
-                        <a href="conference.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                        <a href="conference_2024.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                         <h3 class="card__header">Guest</h3>
                         <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
                             sunrise in the Californian wilderness.</p>
-                        <a href="guest.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                        <a href="guest_2024.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
 
                     </div>
                 </div>

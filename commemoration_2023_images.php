@@ -8,52 +8,25 @@
         </div>
         <div class="commemoration">
         <div class="commemoration__item">
-                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/CGr7Y2jFXn0?si=RoKeWvzWP85BPg37" frameborder="0" ></iframe>
+                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/AcuvQwfaQNc?si=LZbSLvm5227Piedw"  frameborder="0" ></iframe>
                     <div class="card__content">
-                        <h1 class="card__header">Commemoration 2024</h1>
+                        <h1 class="card__header">On The Grave Of OUANDIE</h1>
                         <p class="card__text">Look up at the night sky, and find yourself
                             in the amazing mountain range of Aspen. </p>
                     </div>
                 </div>
             </div>
             <div class="commemoration__item">
-                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/ncYZR3xcLnc?si=dMw6YRW_u693nHfm" frameborder="0" ></iframe>
+                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/_u40U7VvMJc?si=wj7wYfCqk33jkggD" frameborder="0" ></iframe>
                     <div class="card__content">
-                        <h1 class="card__header">Commemoration 2024</h1>
+                        <h1 class="card__header">Baffoussam</h1>
                         <p class="card__text">Look up at the night sky, and find yourself
                             in the amazing mountain range of Aspen. </p>
                     </div>
                 </div>
             </div>
             <div class="commemoration__item">
-                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/qeSq5JjVTj8?si=IjlUdieFSCyI_0Ci"  frameborder="0" ></iframe>
-                    <div class="card__content">
-                        <h1 class="card__header">Commemoration 2024</h1>
-                        <p class="card__text">Look up at the night sky, and find yourself
-                            in the amazing mountain range of Aspen. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="commemoration__item">
-                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/RR5J318uc78?si=g6EWuFJc_Po3-qgL" frameborder="0" ></iframe>
-                    <div class="card__content">
-                        <h1 class="card__header">Commemoration 2024</h1>
-                        <p class="card__text">Look up at the night sky, and find yourself
-                            in the amazing mountain range of Aspen. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="commemoration__item">
-                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/lJvc-9u94gQ?si=MPVroYOHdI-QM-Lc"  frameborder="0" ></iframe>
-                    <div class="card__content">
-                        <h1 class="card__header">Commemoration 2024</h1>
-                        <p class="card__text">Look up at the night sky, and find yourself
-                            in the amazing mountain range of Aspen. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="commemoration__item">
-                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/F6YZpzIUjAs?si=OelnDZHBjxsygcnC"  frameborder="0" ></iframe>
+                <div class="card"><iframe class="card__img" src="https://www.youtube.com/embed/09yEIXu3BYo?si=qNnEDYnVZl5QeDNn" frameborder="0" ></iframe>
                     <div class="card__content">
                         <h1 class="card__header">Commemoration 2024</h1>
                         <p class="card__text">Look up at the night sky, and find yourself
@@ -144,17 +117,15 @@
             </div>
         </div>
         <div class="content-img">
-        <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-24.jpeg" alt="commemoration-23">
-            </div>
             <div class="col-1-of-3">
                 <img class="img1" id="img" src="img/commemoration-22.jpeg" alt="commemoration-21">
             </div>
-           
             <div class="col-1-of-3">
                 <img class="img1" id="img" src="img/commemoration-23.jpeg" alt="commemoration-22">
             </div>
-           
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-24.jpeg" alt="commemoration-23">
+            </div>
         </div>
         <div id="modal" class="modal">
             <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>

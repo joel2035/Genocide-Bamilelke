@@ -2,10 +2,6 @@
 
 
 <?php include_once("header-page.php") ?>
-
-
-
-
 <section class="section-all--commemoration">
     <div class="row">
         <div class="u-center-text margin-bottom-title">
@@ -20,7 +16,7 @@
                         <h1 class="card__header">Commemoration 2023</h1>
                         <p class="card__text">Look up at the night sky, and find yourself
                             in the amazing mountain range of Aspen. </p>
-                        <a href="contact.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                        <a href="commemoration_2023.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-const { compileString } = require("sass");
+//const { compileString } = require("sass");
 
 const firstCase = document.getElementById('case-one');
 const twoCase = document.getElementById('case-two');
@@ -58,10 +58,4 @@ window.addEventListener('scroll', function() {
     heropanel.classList.remove('active');
   }
 });
-
-const modal = document.getElementById("modal")
-
-modal.addEventListener('click', () => {
-  alert("Hello c'est moi")
-})
 

@@ -54,7 +54,7 @@
                         <a class="header-navListItem-link services-call" href="/#services ">Exhibitions</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link avantage-call" href="/#avantage">Achievements</a>
+                        <a class="header-navListItem-link avantage-call" href="achievements.php">Achievements</a>
                     </li>
                     <li class="header-navListItem">
                         <a class="header-navListItem-link avantage-call" href="/#avantage">News</a>
@@ -135,7 +135,7 @@
                             <a class="header-navListItem-link services-call" href="/#Exhibitions">Exhibitions</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link avantage-call" href="/#Achievements">Achievements</a>
+                            <a class="header-navListItem-link avantage-call" href="achievements.php">Achievements</a>
                         </li>
                         <li class="header-navListItem">
                             <a class="header-navListItem-link avantage-call" href="/#News">News</a>
@@ -203,8 +203,13 @@
                 <div class="row">
                     <div id="first" class="row about-bami">
                         <div class="about-bami">
-                            <div>
-                                <h2 class="about-bami--title">What is it to be a bamileke ?</h2>
+                            <div class="col-1-of-1 animate-left">
+                                <h2 class="about-bami--title">What is it to be a bamileke </h2>
+                            </div>
+                            <div class="col-1-of-2">
+                                <div class="about-bami--img">
+                                    <img style="height:100%" src="img/capture.png" alt="what-bamileke">
+                                </div>
                             </div>
 
                         </div>
@@ -227,7 +232,7 @@
                             </div>
                             <div class="col-1-of-2">
                                 <div class="about-bami--img">
-                                    <img src="img/3-useful-info-1.jpeg" alt="3-userful-info">
+                                    <img src="img/vision_of_la'akam.jpg" alt="vision_of_la'akam">
                                 </div>
                             </div>
                         </div>
@@ -250,7 +255,7 @@
                             </div>
                             <div class="col-1-of-2">
                                 <div class="about-bami--img">
-                                    <img src="img/1-useful-info.jpeg" alt="3-userful-info">
+                                    <img src="img/mission.jpg" alt="3-userful-info">
                                 </div>
                             </div>
                         </div>
@@ -276,7 +281,7 @@
                             </div>
                             <div class="col-1-of-2">
                                 <div class="about-bami--img">
-                                    <img src="img/1-useful-info.jpeg" alt="3-userful-info">
+                                    <img src="img/conference-debat.jpg" alt="conference-debat">
                                 </div>
                             </div>
                         </div>
@@ -298,7 +303,7 @@
                             </div>
                             <div class="col-1-of-2">
                                 <div class="about-bami--img">
-                                    <img src="img/1-useful-info.jpeg" alt="3-userful-info">
+                                    <img src="img/ceremonie.jpg" alt="ceremonie">
                                 </div>
                             </div>
                         </div>
@@ -350,9 +355,9 @@
 
                     </div>
                     <div class="commemoration__item">
-                        <div class="card"><img class="card__img" src="img/1-useful-info.jpeg" alt="commemoration">
+                        <div class="card"><img class="card__img" src="img/culture-and-tradition.jpg" alt="culture-and-tradition.jpg">
                             <div class="card__content">
-                                <h3 class="card__header">Commémoration in Pittsburgh</h3>
+                                <h3 class="card__header">Culture & Tradition</h3>
                                 <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
                                     sunrise in the Californian wilderness.</p>
                                 <a href="#" class="card__btn" href="">Explore<span>&rarr;</span></a>
@@ -659,9 +664,7 @@
          <?php include_once("footer.php") ?>
 </body>
 
-<script src="main/index.js">
-
-</script>
+<script type="text/javascript" src="main/index.js"></script>
 
 </html>
 
