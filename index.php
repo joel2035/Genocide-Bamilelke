@@ -322,12 +322,12 @@
             <div class="row">
                 <div class="commemoration">
                     <div class="commemoration__item">
-                        <div class="card"><img class="card__img" src="img/2-home-page.jpg" alt="commomeration">
+                        <div class="card"><img class="card__img" src="img/past-commemoration-6.jpeg" alt="past-commemoration-6.jpeg">
                             <div class="card__content">
                                 <h1 class="card__header">Past Commemorations</h1>
                                 <p class="card__text">Look up at the night sky, and find yourself
                                     in the amazing mountain range of Aspen. </p>
-                                <a href="#" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                                <a href="past-commemoration.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
                             </div>
                         </div>
                     </div>
@@ -479,7 +479,7 @@
                         </div>
                     </div>
                     <div class="commemoration__item">
-                        <div class="card"><img class="card__img" src="img/1-useful-info.jpeg" alt="commemoration">
+                        <div class="card"><img class="card__img" src="img/finance.jpeg" alt="commemoration">
                             <div class="card__content">
                                 <h3 class="card__header">FINANCE</h3>
                                 <p class="card__text">Collecte des fonds destinés au bon fonctionnement de Laakam

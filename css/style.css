@@ -602,8 +602,7 @@ body {
 }
 
 .content_img {
-  margin-top: 20px !important;
-  padding: 10px;
+  cursor: pointer;
 }
 
 .img1 {
@@ -874,8 +873,7 @@ img {
 }
 
 .content_img {
-  margin-top: 20px !important;
-  padding: 10px;
+  cursor: pointer;
 }
 
 .img1 {
