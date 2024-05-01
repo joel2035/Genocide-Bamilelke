@@ -1,12 +1,13 @@
 <?php include_once("header-page.php") ?>
 
 <section class="section-comemorate">
+  
+  <div class="row">
   <div class="u-center-text margin-bottom-title">
     <h2 class="heading-secondary">
       Why Remember The Bamileke Martyrs?
     </h2>
   </div>
-  <div class="row">
     <div class="book">
       <div class="book_page">
         <div class="u-center-text margin-bottom-title">
