@@ -366,26 +366,26 @@
                         </div>
                     </div>
                     <div class="commemoration__item">
-                        <div class="card"><img class="card__img" src="img/3-useful-info-1.jpeg" alt="commemoration">
+                        <div class="card"><img class="card__img" src="img/commemoration-bafoussam-1.jpeg" alt="commemoration-bafoussam-4">
                             <div class="card__content">
                                 <h3 class="card__header">Commemoration in
                                     Bafoussam</h3>
                                 <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
                                     sunrise in the Californian wilderness.</p>
-                                <a href="#" class="card__btn" href="">Explore<span>&rarr;</span></a>
+                                <a href="commemoration-bafoussam.php" class="card__btn" href="">Explore<span>&rarr;</span></a>
 
                             </div>
                         </div>
                     </div>
                     <div class="commemoration__item">
-                        <div class="card"><img class="card__img" src="img/2-useful-info.jpeg" alt="commemoration">
+                        <div class="card"><img class="card__img" src="img/commemoration-methe-5.jpeg" alt="commemoration">
                             <div class="card__content">
                                 <h3 class="card__header">Commémoration at
                                     the Metche Fall</h3>
                                 <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning
                                     sunrise in the Californian wilderness.</p>
-                                <a href="#" class="card__btn     
-                                " href="">Explore<span>&rarr;</span></a>
+                                <a href="methe-fall.php" class="card__btn" 
+                                    >Explore<span>&rarr;</span></a>
 
                             </div>
                         </div>

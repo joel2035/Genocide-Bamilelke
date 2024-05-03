@@ -1,0 +1,167 @@
+<?php include_once("header-page.php") ?>
+<section class="section-all--commemoration">
+    <div class="row">
+        <div class="u-center-text margin-bottom-title">
+            <h2 class="heading-secondary">
+               commemoration in bafoussam
+            </h2>
+        </div>
+        <!--
+        <div class="commemoration">
+            <div class="commemoration__item">
+                <div class="card"><iframe class="card__img"
+                        src="https://www.youtube.com/embed/CGr7Y2jFXn0?si=RoKeWvzWP85BPg37" frameborder="0"></iframe>
+                    <div class="card__content">
+                        <h1 class="card__header">past Commemoration</h1>
+                        <p class="card__text">Look up at the night sky, and find yourself
+                            in the amazing mountain range of Aspen. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="commemoration__item">
+                <div class="card"><iframe class="card__img"
+                        src="https://www.youtube.com/embed/ncYZR3xcLnc?si=dMw6YRW_u693nHfm" frameborder="0"></iframe>
+                    <div class="card__content">
+                        <h1 class="card__header">Commemoration 2024</h1>
+                        <p class="card__text">Look up at the night sky, and find yourself
+                            in the amazing mountain range of Aspen. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="commemoration__item">
+                <div class="card"><iframe class="card__img"
+                        src="https://www.youtube.com/embed/qeSq5JjVTj8?si=IjlUdieFSCyI_0Ci" frameborder="0"></iframe>
+                    <div class="card__content">
+                        <h1 class="card__header">Commemoration 2024</h1>
+                        <p class="card__text">Look up at the night sky, and find yourself
+                            in the amazing mountain range of Aspen. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="commemoration__item">
+                <div class="card"><iframe class="card__img"
+                        src="https://www.youtube.com/embed/RR5J318uc78?si=g6EWuFJc_Po3-qgL" frameborder="0"></iframe>
+                    <div class="card__content">
+                        <h1 class="card__header">Commemoration 2024</h1>
+                        <p class="card__text">Look up at the night sky, and find yourself
+                            in the amazing mountain range of Aspen. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="commemoration__item">
+                <div class="card"><iframe class="card__img"
+                        src="https://www.youtube.com/embed/lJvc-9u94gQ?si=MPVroYOHdI-QM-Lc" frameborder="0"></iframe>
+                    <div class="card__content">
+                        <h1 class="card__header">Commemoration 2024</h1>
+                        <p class="card__text">Look up at the night sky, and find yourself
+                            in the amazing mountain range of Aspen. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="commemoration__item">
+                <div class="card"><iframe class="card__img"
+                        src="https://www.youtube.com/embed/F6YZpzIUjAs?si=OelnDZHBjxsygcnC" frameborder="0"></iframe>
+                    <div class="card__content">
+                        <h1 class="card__header">Commemoration 2024</h1>
+                        <p class="card__text">Look up at the night sky, and find yourself
+                            in the amazing mountain range of Aspen. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        !-->
+
+        <div class="content_img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-1.jpeg" alt="commemoration-bafoussam-1">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-2.jpeg" alt="commemoration-bafoussam-2">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-4.jpeg" alt="commemoration-bafoussam-4">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-5.jpeg" alt="commemoration-bafoussam-5">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-6.jpeg" alt="commemoration-bafoussam-6">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-7.jpeg" alt="commemoration-bafoussam-7">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-8.jpeg" alt="commemoration-bafoussam-8">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-9.jpeg" alt="commemoration-bafoussam-9">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-13.jpeg" alt="commemoration-bafoussam-10">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-16.jpeg" alt="commemoration-bafoussam-11">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-12.jpeg" alt="commemoration-bafoussam-12">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-10.jpeg" alt="commemoration-bafoussam-13">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-14.jpeg" alt="commemoration-bafoussam-14">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-11.jpeg" alt="commemoration-bafoussam-15">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-bafoussam-15.jpeg" alt="commemoration-bafoussam-10">
+            </div>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+<?php include_once("footer.php") ?>
+<script>
+    let modal = document.getElementById('modal');
+
+    let img = document.querySelectorAll('.img1');
+    let modalImg = document.getElementById("img01");
+    document.getElementById("caption");
+
+    for (let i = 0; i < img.length; i++) {
+        const element = img[i];
+        element.onclick = function () {
+            if (modal) {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+        }
+    }
+
+    let span = document.querySelectorAll(".close");
+
+    for (let index = 0; index < span.length; index++) {
+        const element1 = span[index];
+        element1.onclick = function () {
+            modal.style.display = "none";
+        }
+    }
+</script>
