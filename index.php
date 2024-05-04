@@ -51,7 +51,7 @@
                         <a class="header-navListItem-link agence-call" href="/#About La’akam ">About La’akam</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link services-call" href="/#services ">Exhibitions</a>
+                        <a class="header-navListItem-link services-call" href="/#Commemoration ">Commemoration</a>
                     </li>
                     <li class="header-navListItem">
                         <a class="header-navListItem-link avantage-call" href="achievements.php">Achievements</a>
@@ -132,7 +132,7 @@
                             <a class="header-navListItem-link agence-call" href="/#About La’akam ">About La’akam</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link services-call" href="/#Exhibitions">Exhibitions</a>
+                            <a class="header-navListItem-link services-call" href="/#Commemoration">Commemoration</a>
                         </li>
                         <li class="header-navListItem">
                             <a class="header-navListItem-link avantage-call" href="achievements.php">Achievements</a>

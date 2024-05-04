@@ -40,93 +40,61 @@
         </div>
         <div class="content_img">
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-1.jpeg" alt="commemoration-1">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-1.jpeg" alt="commemoration-usa-2023-1">
             </div>
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-2.jpeg" alt="commemoration-2">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-2.jpeg" alt="commemoration-usa-2023-2">
             </div>
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-3.jpeg" alt="commemoration-3">
-            </div>
-        </div>
-        <div class="content-img">
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-4.jpeg" alt="commemoration-4">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-5.jpeg" alt="commemoration-5">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-6.jpeg" alt="commemoration-6">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-3.jpeg" alt="commemoration-usa-2023-3">
             </div>
         </div>
         <div class="content-img">
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-7.jpeg" alt="commemoration-7">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-4.jpeg" alt="commemoration-usa-2023-4">
             </div>
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-7.jpeg" alt="commemoration-7">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-5.jpeg" alt="commemoration-usa-2023-5">
             </div>
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-9.jpeg" alt="commemoration-8">
-            </div>
-        </div>
-        <div class="content-img">
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-10.jpeg" alt="commemoration-9">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-11.jpeg" alt="commemoration-10">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-12.jpeg" alt="commemoration-11">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-6.jpeg" alt="commemoration-usa-2023-6">
             </div>
         </div>
         <div class="content-img">
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-13.jpeg" alt="commemoration-12">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-7.jpeg" alt="commemoration-usa-2023-7">
             </div>
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-14.jpeg" alt="commemoration-13">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-8.jpeg" alt="commemoration-usa-2023-8">
             </div>
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-15.jpeg" alt="commemoration-14">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-9.jpeg" alt="commemoration-usa-2023-9">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-10.jpeg" alt="commemoration-usa-2023-10">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-11.jpeg" alt="commemoration-usa-2023-11">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-12.jpeg" alt="commemoration-usa-2023-12">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-13.jpeg" alt="commemoration-usa-2023-13">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-14.jpeg" alt="commemoration-usa-2023-14">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/commemoration-usa-2023-15.jpeg" alt="commemoration-usa-2023-15">
             </div>
 
         </div>
-        <div class="content-img">
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-16.jpeg" alt="commemoration-15">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-17.jpeg" alt="commemoration-16">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-18.jpeg" alt="commemoration-17">
-            </div>
-        </div>
-        <div class="content-img">
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-19.jpeg" alt="commemoration-18">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-20.jpeg" alt="commemoration-19">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-21.jpeg" alt="commemoration-20">
-            </div>
-        </div>
-        <div class="content-img">
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-22.jpeg" alt="commemoration-21">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-23.jpeg" alt="commemoration-22">
-            </div>
-            <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/commemoration-24.jpeg" alt="commemoration-23">
-            </div>
-        </div>
+        
         <div id="modal" class="modal">
             <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
             <img class="modal-content" id="img01">

@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="commemoration__item">
-                <div class="card"><img class="card__img" src="img/commemoration.jpg" alt="commemoration">
+                <div class="card"><img class="card__img" src="img/commemoration-usa-2023-12.jpeg" alt="commemoration-usa-2023-1">
                     <div class="card__content">
                         <h3 class="card__header">Photos and videos</h3>
                         <p class="card__text">Capture the stunning <strong>essence</strong> of the early morning

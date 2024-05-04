@@ -11,7 +11,7 @@
         </div>
         <div class="commemoration">
             <div class="commemoration__item">
-                <div class="card"><img class="card__img" src="../img/2-home-page.jpg" alt="commomeration">
+                <div class="card"><img class="card__img" src="img/commemoration-usa-2023-1.jpeg" alt="commemoration-usa-2023-12">
                     <div class="card__content">
                         <h1 class="card__header">Commemoration 2023</h1>
                         <p class="card__text">Look up at the night sky, and find yourself
