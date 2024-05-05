@@ -1,2 +1,8 @@
 .u-center-text{text-align: center; color: $color-white;}
-.margin-bottom-title{margin-bottom: 8rem;}
+.margin-bottom-title{
+    margin-bottom: 8rem;
+    @include respond(phone){
+        margin-bottom: 4rem;
+    }
+    
+}

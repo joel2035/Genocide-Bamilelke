@@ -2,6 +2,13 @@
     background-image: linear-gradient(to right, #2ebad5, #014970);
     clip-path: ellipse(115vw 50% at center);
     height: 80vh;
+
+    @include respond(phone){
+        height: 30vh;
+    }
+    @include respond(tab-port){
+        height: 50vh;
+    }
 }
 .content-box--descriptif---detail{
     &:hover{
@@ -13,6 +20,9 @@ text-decoration: none;
 .detail {
 
     color: $color-white;
+    @include respond(phone){
+        font-size: .5rem !important;
+    }
     
     a {
         text-decoration: none;

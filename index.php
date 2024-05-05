@@ -37,30 +37,30 @@
     <header class="header">
         <div class="navbar">
             <div class="header-logo">
-                <a href="/index.php"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
+                <a href="index.php"><img class="header-logo--img" src="img/laakam-logo.png" alt="laakam-logo"></a>
             </div>
             <nav>
                 <div class="header-burger">
-                    <a href="#"><img src="img/burger-white.png" alt=""></a>
+                    <a href="#"><img src="img/burger-menu-open.svg.png" alt="burger-menu-open"></a>
                 </div>
                 <ul class="header-navList">
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link top-call color" href="index.php">Home</a>
+                        <a class="header-navListItem-link color" href="index.php">Home</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link agence-call" href="/#About La’akam ">About La’akam</a>
+                        <a class="header-navListItem-link" id="about" href="/#About">About La’akam</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link services-call" href="/#Commemoration ">Commemoration</a>
+                        <a class="header-navListItem-link " href="commemoration.php">Commemoration</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link avantage-call" href="achievements.php">Achievements</a>
+                        <a class="header-navListItem-link " href="achievements.php">Achievements</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link avantage-call" href="/#avantage">News</a>
+                        <a class="header-navListItem-link " href="/#News">News</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link campagne-call" href="contact.php">Contact us</a>
+                        <a class="header-navListItem-link " href="contact.php">Contact us</a>
                     </li>
                     <li class="header-navListItem ">
                         <a class="donate" href="/#contact">DONATE</a>
@@ -118,32 +118,32 @@
         <section class="heropanel">
             <div class="navbar">
                 <div class="header-logo">
-                    <a href="#"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
+                    <a href="#"><img class="header-logo--img" src="img/laakam-logo.png" alt="laakam-logo"></a>
                 </div>
                 <nav>
                     <div class="header-burger">
-                        <a href="#"><img src="img/burger-white.png" alt=""></a>
+                        <a href="#"><img src="img/burger-menu-open.svg.png" alt="burger-menu-open"></a>
                     </div>
                     <ul class="header-navList">
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link top-call" href="index.php">Home</a>
+                            <a class="header-navListItem-link" href="index.php">Home</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link agence-call" href="/#About La’akam ">About La’akam</a>
+                            <a class="header-navListItem-link" href="/#About La'akam">About La’akam</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link services-call" href="/#Commemoration">Commemoration</a>
+                            <a class="header-navListItem-link" id="commemoration-call" href="commemoration.php">Commemoration</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link avantage-call" href="achievements.php">Achievements</a>
+                            <a class="header-navListItem-link" href="achievements.php">Achievements</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link avantage-call" href="/#News">News</a>
+                            <a class="header-navListItem-link" href="/#News">News</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link campagne-call" href="contact.php">Contact us</a>
+                            <a class="header-navListItem-link" href="contact.php">Contact us</a>
                         </li>
-                        <li class="header-navListItem ">
+                        <li class="header-navListItem">
                             <a class="donate" href="/#contact">DONATE</a>
                         </li>
                     </ul>
@@ -151,7 +151,7 @@
             </div>
         </section>
         <section class="news"></section>
-        <section class="section-about">
+        <section class="section-about" id="section-about">
             <div class="u-center-text margin-bottom-title">
 
                 <h1 class="heading-secondary">
@@ -180,23 +180,23 @@
                 </div>
                 <div class="content">
                     <div id="case-one" class="content-box slide">
-                        <h2>01</h2>
+                        <h2 class="number">01</h2>
                         <h3 class="content-box--descriptif">What is it to be a bamileke ?</h3>
                     </div>
                     <div id="case-two" class="content-box slide">
-                        <h2>02</h2>
+                        <h2 class="number">02</h2>
                         <h3 class="content-box--descriptif">VISION LA’AKAM</h3>
                     </div>
                     <div id="case-three" class="content-box slide">
-                        <h2>03</h2>
+                        <h2 class="number">03</h2>
                         <h3 class="content-box--descriptif">MISSIONS</h3>
                     </div>
                     <div id="case-foor" class="content-box slide">
-                        <h2>04</h2>
+                        <h2 class="number">04</h2>
                         <h3 class="content-box--descriptif">CONFERENCE DEBATE</h3>
                     </div>
                     <div id="case-five" class="content-box slide">
-                        <h2>05</h2>
+                        <h2 class="number">05</h2>
                         <h3 class="content-box--descriptif">mourning ceremony</h3>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
                             </div>
                             <div class="col-1-of-2">
                                 <div class="about-bami--img">
-                                    <img style="height:100%" src="img/capture.png" alt="what-bamileke">
+                                    <img src="img/capture.png" alt="what-bamileke">
                                 </div>
                             </div>
 
@@ -237,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="three" class="row" style="color: white">
+                    <div id="three" class="row" style="color: white" id="about">
                         <div class="about-bami">
                             <div class="col-1-of-2">
 
@@ -313,7 +313,7 @@
 
             </div>
         </section>
-        <section class="section-commemoration">
+        <section class="section-commemoration" id="commemoration">
             <div class="u-center-text margin-bottom-title">
                 <h2 class="heading-secondary u-margin-bottom-big">
                     commemoration
@@ -593,8 +593,6 @@
 
             </div>
         </section>
-        
-      
     </main>
     
     <!-- 
@@ -662,7 +660,7 @@
         </section>
          -->
          <?php include_once("footer.php") ?>
-</body>
+
 
 <script type="text/javascript" src="main/index.js"></script>
 

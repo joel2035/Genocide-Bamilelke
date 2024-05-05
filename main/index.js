@@ -12,6 +12,12 @@ const three = document.getElementById('three');
 const foor = document.getElementById('foor');
 const five = document.getElementById('five');
 
+
+
+
+
+
+
 twoCase.addEventListener('click', () => {
     first.style = "display:none";
     two.style = "display:block";
@@ -57,5 +63,73 @@ window.addEventListener('scroll', function() {
   } else {
     heropanel.classList.remove('active');
   }
+});
+
+
+
+
+// SMOOTH SCROLL
+
+
+
+
+
+
+
+
+
+
+// Modale 
+
+var modal = document.getElementById('modal');
+
+var img = document.querySelectorAll('.img1');
+var modalImg = document.getElementById("img01");
+document.getElementById("caption");
+
+for (var i = 0; i < img.length; i++) {
+  
+  const element = img[i];
+  element.onclick = function(){
+    if (modal) {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+  }
+}
+
+var span = document.querySelectorAll(".close");
+
+for (var index = 0; index < span.length; index++) {
+  const element1 = span[index];
+  element1.onclick = function () {
+    modal.style.display = "none";
+  }
+}
+
+// BURGER
+
+const burger = document.querySelector('.header-burger');
+const menu = document.querySelector('.header-navList');
+const hide = document.querySelector('.hide');
+const bar = document.querySelector('.header-navListItem')
+const burgerImage = document.querySelector('.header-burger img');
+
+
+const fichesSection = document.querySelector('.fichesPratiques');
+
+burger.addEventListener('click', function() {
+ 
+
+  if (menu.classList.contains('menuOpen')) {
+    menu.classList.remove('menuOpen');
+    burgerImage.src = 'img/burger-menu-open.svg.png';
+  } else {
+    menu.classList.add('menuOpen');
+    burgerImage.src = 'img/burger-menu-close.png';
+  }
+
 });
 

@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,45 +24,72 @@
   <meta name="twitter:image" content="">
 
  <!-- Your styles -->
-    <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon-font.css">
     <link rel="shortcut icon" type="image/png" href="img/laakam-logo.png">
 
     <title>Genocidebamilekes| Exciting story of the bamileke genocide</title>
 </head>
 <body>
 <header class="header-page">
-<div class="navbar navbar-fix">
+        <div class="navbar navbar-fix">
             <div class="header-logo">
                 <a href="index.php"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
             </div>
             <nav>
                 <div class="header-burger">
-                    <a href=""><img src="img/burger-white.png" alt=""></a>
+                    <a href="#"><img src="img/burger-menu-open.svg.png" alt="burger-menu-open"></a>
                 </div>
                 <ul class="header-navList">
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link top-call" href="index.php">Home</a>
+                        <a class="header-navListItem-link top-call color" href="index.php">Home</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link agence-call" href="/#agence ">About La’akam</a>
+                        <a class="header-navListItem-link" id="about" href="/#About">About La’akam</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link services-call" href="/#Commemoration ">Commemoration</a>
+                        <a class="header-navListItem-link" href="commemoration.php">Commemoration</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link avantage-call" href="/#avantage">Achievements</a>
+                        <a class="header-navListItem-link " href="achievements.php">Achievements</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link avantage-call" href="/#avantage">News</a>
+                        <a class="header-navListItem-link" href="/#News">News</a>
                     </li>
                     <li class="header-navListItem">
-                        <a class="header-navListItem-link campagne-call" href="contact.php">Contact us</a>
+                        <a class="header-navListItem-link" href="contact.php">Contact us</a>
                     </li>
-                    <li class="header-navListItem">
+                    <li class="header-navListItem ">
                         <a class="donate" href="/#contact">DONATE</a>
 
                     </li>
                 </ul>
             </nav>
+        </div>
 </header>
+
+<script type="text/javascript">
+
+// BURGER
+const burger = document.querySelector('.header-burger');
+const menu = document.querySelector('.header-navList');
+const hide = document.querySelector('.hide');
+const bar = document.querySelector('.header-navListItem')
+const burgerImage = document.querySelector('.header-burger img');
+
+
+const fichesSection = document.querySelector('.fichesPratiques');
+
+burger.addEventListener('click', function() {
+ 
+
+  if (menu.classList.contains('menuOpen')) {
+    menu.classList.remove('menuOpen');
+    burgerImage.src = 'img/burger-menu-open.svg.png';
+  } else {
+    menu.classList.add('menuOpen');
+    burgerImage.src = 'img/burger-menu-close.png';
+  }
+
+});
+</script>

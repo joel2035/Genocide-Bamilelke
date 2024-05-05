@@ -11,7 +11,7 @@
     <div class="book">
       <div class="book_page">
         <div class="u-center-text margin-bottom-title">
-          <h3 class="heading-secondary book_title">
+          <h3 class="book_title">
             The history of genocide must be known
           </h3>
         </div>
@@ -30,7 +30,7 @@
     <div class="book book-two">
       <div class="book_page">
         <div class="u-center-text margin-bottom-title">
-          <h3 class="heading-secondary book_title">
+          <h3 class="book_title">
             Funerals for the martyrs must be held
           </h3>
         </div>
@@ -50,7 +50,7 @@
     <div class="book book-three">
       <div class="book_page">
         <div class="u-center-text margin-bottom-title">
-          <h3 class="heading-secondary book_title">
+          <h3 class="book_title">
             France must not be allowed to write the history of Cameroon</h3>
         </div>
 

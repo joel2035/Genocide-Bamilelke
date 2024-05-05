@@ -5,25 +5,55 @@
     z-index: 10000;
     width: 100%;
     clip-path: ellipse(165vh 100% at top);
+
+    @include respond(phone){
+      height: 65vh;
+       
+    }
     &-logo{
       width: 8rem;
       position: absolute;
       left: 8vh;
       top: 1vh;
+      align-items: center;
+      justify-content: center;
+      @include respond(phone){
+        left: 1vh;
+        align-items: center;
+        justify-content: center;
+         
+      }
     }
       &__text-box {
      margin-top:15%;
+     @include respond(phone){
+      margin-top:9%;
+        
+    }
+      
+    
       }
   }
   .header-burger {
     display: none;
+    @include respond(tab-port){
+      width: 30px;
+    margin-left: 1rem;
+    cursor: pointer;
+    right: 2rem;
+    top: 2rem;
+    z-index: 20000;
+    position: fixed;
+    display: block;
+    }
   }
   .navbar {
     display: flex;
     align-items: center;
+    position: relative;
+    justify-content: center;
     width: 100vw;
     height: 10vh;
-
     justify-content: space-between;
     box-shadow: 0 10px 7px -4px rgba(158, 155, 158, 0.3);
     top: 0;
@@ -103,14 +133,65 @@
   .navbar .header-navListItem a:hover {
     color: $color-primary-light;
   }
+  .navbar .header-navListItem a:hover {
+    color: rgba(12, 83, 123);
+  }
+  .navbar .header-navListItem {
 
+    @include respond(tab-port){
+      margin: 2vh auto;
+    }
+    
+  }
+  .navbar .header-navListItem a {
+    @include respond(tab-port){
+      z-index: 1000;
+    }
+  }
+  .navbar .header-burger{
+    @include respond(tab-port){
+      width: 30px;
+      margin-left: 1rem;
+      cursor: pointer;
+      right: 2rem;
+      top: 2rem;
+      z-index: 20000;
+      position: fixed;
+      display: block;
+    }
+  }
   .header-content--box{
     display: flex;
 position: absolute;
    top: 4rem;
    right: 20rem;
+
+   @include respond(tab-port){
+     display: none;
+   }
   
 }
+@include respond(tab-port){
+  .navbar .header-burger img {
+    width: 100%;
+  }
+  .navbar .header-navList {
+    width: 100vw;
+    transition: right 0.3s ease;
+    right: -100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100vh;
+    margin-top: -3rem;
+    position: fixed;
+    z-index: 10000;
+  }
+  .navbar .menuOpen {
+    right: 0;
+  }
+}
+
 .header-content--box---img{
     position: relative;
     width: 20rem;
@@ -118,6 +199,7 @@ position: absolute;
     transform-style:preserve-3d; 
     animation: animate 10s linear infinite;
 }
+
 .wrapper{
   height: 30rem;
   width: 30rem;
@@ -207,13 +289,12 @@ height: 100%;
   opacity: 0;
   transition: 0.2s ease;
   align-items: center;
-}
-
-@media (max-width: 800px) {
-  .heropanel {
-    display: none;
+  @include respond(tab-port) {
+   display: none;
   }
 }
+
+
 
 .active {
   display: flex;
@@ -221,8 +302,3 @@ height: 100%;
   transition: 0.5s ease;
 }
 
-@media (max-width: 768px) {
-  .active {
-    display: none;
-  }
-}

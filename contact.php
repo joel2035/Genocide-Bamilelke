@@ -1,7 +1,7 @@
 <?php include_once("header-page.php") ?>
+
 <section class="section-contact">
     <div class="row">
-
         <div class="u-center-text margin-bottom-title">
             <h2 class="heading-secondary">
                 Contact
@@ -10,7 +10,7 @@
         <div class="contact">
             <div class="contact_page">
                 <div class="u-center-text margin-bottom-title">
-                    <h3 class="heading-secondary book_title">
+                    <h3 class=" book_title">
                         Join us for our community
                     </h3>
                 </div>
@@ -19,13 +19,13 @@
                         <div class="form__group">
                         <input id="name" class="form__input" type="text" placeholder="Full name" name="name" value="" required>
                         </div>
-                        <div class="conatact_form__group">
+                        <div class="form__group">
                         <input id="email" class="form__input"type="email" name="email" placeholder="Email adress" value="" required>
                         </div>
-                        <div class="conatact_form__group">
+                        <div class="form__group">
                         <textarea required placeholder="Your Message" name="message" class="form__input area" id="message" rows="6" cols="50"></textarea>
                         </div>
-                        <div class="conatact_form__group">
+                        <div class="form__group">
                     <button class="btn btn--aqua" type="submit" name="submit" value="envoyer">Submit</button>
                 </div>
                     </form>
@@ -52,4 +52,5 @@
     ?>
     </div>
 </section>
+
 <?php include_once("footer.php") ?>

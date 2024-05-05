@@ -71,9 +71,9 @@
         </div>
         !-->
 
-        <div class="content_img">
+        <div class="content-img">
             <div class="col-1-of-3">
-                <img class="img1" id="img" src="img/past-commemoration-1.jpeg" alt="past-commemoration-1.jpeg">
+                <img class="img1" id="img" src="img/past-commemoration-1.jpeg" alt="past-commemoration-1">
             </div>
             <div class="col-1-of-3">
                 <img class="img1" id="img" src="img/past-commemoration-2.jpeg" alt="past-commemoration-2">
@@ -91,6 +91,39 @@
             </div>
             <div class="col-1-of-3">
                 <img class="img1" id="img" src="img/past-commemoration-6.jpeg" alt="past-commemoration-6">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-7.jpeg" alt="past-commemoration-7">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-8.jpeg" alt="past-commemoration-8">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-9.jpeg" alt="past-commemoration-9">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-10.jpeg" alt="past-commemoration-10">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-11.jpeg" alt="past-commemoration-11">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-12.jpeg" alt="past-commemoration-12">
+            </div>
+        </div>
+        <div class="content-img">
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-13.jpeg" alt="past-commemoration-13">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-14.jpeg" alt="past-commemoration-14">
+            </div>
+            <div class="col-1-of-3">
+                <img class="img1" id="img" src="img/past-commemoration-15.jpeg" alt="past-commemoration-15">
             </div>
         </div>
     </div>

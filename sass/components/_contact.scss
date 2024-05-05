@@ -4,20 +4,45 @@
     border-radius: 0.3rem;
     height: 80vh;
     box-shadow: 0 1.5rem 4rem rgba(1, 73, 112, 0.2);
+    @include respond(tab-port){
+      height: 60vh;
+      background-image:  url(/img/contact.jpeg);
+      
+    }
   }
   .contact_page {
     width: 50%;
     padding: 3rem;
+    @include respond(tab-port){
+      width: 100%;      
+      padding: 0;
+    }
   }
 
 
 .form{
-
+  @include respond(tab-port){
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    
+    
+    }
     &__group:not(:nth-child(1)){
         margin-bottom: 0rem;
     }
-  
-
+    &__group{
+      @include respond(tab-port){
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+       display: flex;
+        
+        
+        }
+      
+    }
     &__input{
       font-size: 1.5rem;
       padding: 1.5rem 2rem;
@@ -29,15 +54,15 @@
       border-bottom: 3px solid transparent;
       width: 90%;
       display: block;
-    
+     
 
       &:focus{
         outline: none;
         box-shadow: 0 1rem 2rem rgba($color-black, .1);
-        border-bottom: 3px solid $color-primary;
+        border-bottom: .3rem solid $color-primary;
     }
     &:focus:invalid{
-        border-bottom: 3px solid rgba(243, 55, 55, 0.548);
+        border-bottom: .3rem solid rgba(243, 55, 55, 0.548);
     }
 
       &::-webkit-input-placeholder {

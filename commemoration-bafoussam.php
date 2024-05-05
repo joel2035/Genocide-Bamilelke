@@ -71,7 +71,7 @@
         </div>
         !-->
 
-        <div class="content_img">
+        <div class="content-img">
             <div class="col-1-of-3">
                 <img class="img1" id="img" src="img/commemoration-bafoussam-1.jpeg" alt="commemoration-bafoussam-1">
             </div>
