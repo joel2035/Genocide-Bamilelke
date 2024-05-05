@@ -6,6 +6,7 @@
     width: 100%;
     clip-path: ellipse(165vh 100% at top);
 
+
     @include respond(phone){
       height: 65vh;
        
@@ -161,14 +162,15 @@
     }
   }
   .header-content--box{
-    display: flex;
-position: absolute;
-   top: 4rem;
+  
+    top: 4rem;
    right: 20rem;
 
    @include respond(tab-port){
      display: none;
    }
+  
+   
   
 }
 @include respond(tab-port){
@@ -198,6 +200,7 @@ position: absolute;
     height: 20rem;
     transform-style:preserve-3d; 
     animation: animate 10s linear infinite;
+   
 }
 
 .wrapper{
@@ -216,6 +219,7 @@ position: absolute;
   height: 100%;
   perspective: 80rem;
   perspective-origin: 50%;
+
 }
 
 .image-cube{
@@ -225,6 +229,10 @@ position: absolute;
  position: relative;
  transform: rotateY(0deg);
  animation: spin 10s linear infinite;
+ @include respond(tab-land){
+  width: 40rem;
+  height: 40rem;
+}
  
 }
 @keyframes spin{

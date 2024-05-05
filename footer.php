@@ -7,6 +7,9 @@
                     </div>
                 </div>
                 <div class="col-1-of-3">
+                    <div class="footer_nav">
+
+                   
                     <h4 class="footer-content--title">Sitemap</h4> 
                     <hr>
                     <ul>
@@ -17,10 +20,10 @@
                             <a class="footer-navListItem--link" href="#">About La’akam</a>
                         </li>
                         <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">Exhibitions</a>
+                            <a class="footer-navListItem--link" href="commemoration.php">Commemoration</a>
                         </li>
                         <li class="footer-navListItem">
-                            <a class="footer-navListItem--link" href="#">Achievements</a>
+                            <a class="footer-navListItem--link" href="achievements.php">Achievements</a>
                         </li>
                         <li class="footer-navListItem">
                             <a class="footer-navListItem--link" href="#">News</a>
@@ -33,7 +36,11 @@
                         </li>
                     </ul>
                 </div>
+                </div>
                 <div class="col-1-of-3">
+                    <div class="footer_link">
+
+                   
                     <h4 class="footer-content--title">Contact</h4>
                     <hr>
                     <ul>
@@ -48,5 +55,7 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </div>
     </footer>
+    </body>

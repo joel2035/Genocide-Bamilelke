@@ -157,7 +157,7 @@ height: 100vh;
     clip-path: ellipse(115vw 50% at center);
     height: 110vh;
     @include respond(phone){
-        height: 100vh;
+        height: 100vh !important;
     }
 
 }

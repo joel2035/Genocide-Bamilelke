@@ -2,12 +2,14 @@
     background-image: linear-gradient(to right, #2ebad5, #014970);
     clip-path: ellipse(115vw 50% at center);
     height: 80vh;
-
-    @include respond(phone){
-        height: 30vh;
-    }
+   
+  
     @include respond(tab-port){
-        height: 50vh;
+        height: 50vh !important;
+    }
+  
+    @include respond(phone){
+        height: 30vh !important;
     }
 }
 .content-box--descriptif---detail{

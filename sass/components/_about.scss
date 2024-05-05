@@ -18,9 +18,8 @@
        text-align: center;
         animation: moveInBottom .5s ease-out;
     }
-    @include respond(tab-port){
-        animation: moveInBottom .5s ease-out;
-    }
+   
+   
     
      }
      &-text {

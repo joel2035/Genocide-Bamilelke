@@ -9,6 +9,6 @@
  ## Run 
   
  ``` 
- npm run compile:saas and liver-server
+ npm run compile:saas && php -S localhost:@exemple(8000)
  
  ``` 

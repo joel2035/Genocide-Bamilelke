@@ -147,7 +147,7 @@
 }
 @media (max-width: 37.5em) {
   .container {
-    height: 100vh;
+    height: 100vh !important;
   }
 }
 
@@ -640,11 +640,6 @@ body {
     animation: moveInBottom 0.5s ease-out;
   }
 }
-@media (max-width: 52.25em) {
-  .about-bami--title {
-    animation: moveInBottom 0.5s ease-out;
-  }
-}
 .about-bami-text {
   color: #FFF;
   font-size: 2rem;
@@ -855,14 +850,14 @@ img {
   clip-path: ellipse(115vw 50% at center);
   height: 80vh;
 }
-@media (max-width: 37.5em) {
-  .news-container {
-    height: 30vh;
-  }
-}
 @media (max-width: 52.25em) {
   .news-container {
-    height: 50vh;
+    height: 50vh !important;
+  }
+}
+@media (max-width: 37.5em) {
+  .news-container {
+    height: 30vh !important;
   }
 }
 
@@ -1448,8 +1443,6 @@ img {
 }
 
 .header-content--box {
-  display: flex;
-  position: absolute;
   top: 4rem;
   right: 20rem;
 }
@@ -1513,6 +1506,12 @@ img {
   position: relative;
   transform: rotateY(0deg);
   animation: spin 10s linear infinite;
+}
+@media (max-width: 75em) {
+  .image-cube {
+    width: 40rem;
+    height: 40rem;
+  }
 }
 
 @keyframes spin {

@@ -37,37 +37,36 @@
     <header class="header">
         <div class="navbar">
             <div class="header-logo">
-                <a href="index.php"><img class="header-logo--img" src="img/laakam-logo.png" alt="laakam-logo"></a>
+                <a href="index.php"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
             </div>
             <nav>
-                <div class="header-burger">
-                    <a href="#"><img src="img/burger-menu-open.svg.png" alt="burger-menu-open"></a>
-                </div>
-                <ul class="header-navList">
-                    <li class="header-navListItem">
-                        <a class="header-navListItem-link color" href="index.php">Home</a>
-                    </li>
-                    <li class="header-navListItem">
-                        <a class="header-navListItem-link" id="about" href="/#About">About La’akam</a>
-                    </li>
-                    <li class="header-navListItem">
-                        <a class="header-navListItem-link " href="commemoration.php">Commemoration</a>
-                    </li>
-                    <li class="header-navListItem">
-                        <a class="header-navListItem-link " href="achievements.php">Achievements</a>
-                    </li>
-                    <li class="header-navListItem">
-                        <a class="header-navListItem-link " href="/#News">News</a>
-                    </li>
-                    <li class="header-navListItem">
-                        <a class="header-navListItem-link " href="contact.php">Contact us</a>
-                    </li>
-                    <li class="header-navListItem ">
-                        <a class="donate" href="/#contact">DONATE</a>
-
-                    </li>
-                </ul>
-            </nav>
+                    <div class="header-burger">
+                        <a href="#"><img src="img/burger-menu-open.svg.png" alt="burger-menu-open"></a>
+                    </div>
+                    <ul class="header-navList">
+                        <li class="header-navListItem">
+                            <a class="header-navListItem-link top-call" href="index.php">Home</a>
+                        </li>
+                        <li class="header-navListItem">
+                            <a class="header-navListItem-link" href="/#About La'akam">About La’akam</a>
+                        </li>
+                        <li class="header-navListItem">
+                            <a class="header-navListItem-link" id="commemoration-call" href="/#Commemoration">Commemoration</a>
+                        </li>
+                        <li class="header-navListItem">
+                            <a class="header-navListItem-link" href="achievements.php">Achievements</a>
+                        </li>
+                        <li class="header-navListItem">
+                            <a class="header-navListItem-link" href="/#News">News</a>
+                        </li>
+                        <li class="header-navListItem">
+                            <a class="header-navListItem-link" href="contact.php">Contact us</a>
+                        </li>
+                        <li class="header-navListItem ">
+                            <a class="donate" href="/#contact">DONATE</a>
+                        </li>
+                    </ul>
+                </nav>
         </div>
     
         <div class="row">
@@ -118,7 +117,7 @@
         <section class="heropanel">
             <div class="navbar">
                 <div class="header-logo">
-                    <a href="#"><img class="header-logo--img" src="img/laakam-logo.png" alt="laakam-logo"></a>
+                    <a href="#"><img class="header-logo--img" src="img/laakam-logo.png" alt=""></a>
                 </div>
                 <nav>
                     <div class="header-burger">
@@ -126,13 +125,13 @@
                     </div>
                     <ul class="header-navList">
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link" href="index.php">Home</a>
+                            <a class="header-navListItem-link top-call" href="index.php">Home</a>
                         </li>
                         <li class="header-navListItem">
                             <a class="header-navListItem-link" href="/#About La'akam">About La’akam</a>
                         </li>
                         <li class="header-navListItem">
-                            <a class="header-navListItem-link" id="commemoration-call" href="commemoration.php">Commemoration</a>
+                            <a class="header-navListItem-link" href="commemoration.php">Commemoration</a>
                         </li>
                         <li class="header-navListItem">
                             <a class="header-navListItem-link" href="achievements.php">Achievements</a>
@@ -143,7 +142,7 @@
                         <li class="header-navListItem">
                             <a class="header-navListItem-link" href="contact.php">Contact us</a>
                         </li>
-                        <li class="header-navListItem">
+                        <li class="header-navListItem ">
                             <a class="donate" href="/#contact">DONATE</a>
                         </li>
                     </ul>
